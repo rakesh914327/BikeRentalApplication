@@ -10,6 +10,13 @@ public class Dashboard {
     private WebDriver driver;
 
     // Element locators using @FindAll for auto-healing
+    
+    @FindAll({@FindBy(xpath = "//a[contains(text(),' Dashboard')]"),@FindBy(xpath = "//a[@href=\"dashboard.php\"]/i/..")})
+	private WebElement dashboardLink;
+    
+    @FindBy(xpath = "//h2[@class=\"page-title\"]")
+    WebElement dashboardText;
+    
     @FindAll({
         @FindBy(xpath = "//DIV[contains(.,'9')]/descendant::DIV[.='Reg Users']")
     })
@@ -112,12 +119,52 @@ public class Dashboard {
     })
     private WebElement testimonialsFullDetailLink;
 
-    public Dashboard(WebDriver driver) {
+    public WebDriver getDriver() {
+		return driver;
+	}
+
+	public WebElement getDashboardText() {
+		return dashboardText;
+	}
+
+	public WebElement getRegUsersFullDetailLink() {
+		return regUsersFullDetailLink;
+	}
+
+	public WebElement getListedVehiclesFullDetailLink() {
+		return listedVehiclesFullDetailLink;
+	}
+
+	public WebElement getTotalBookingsFullDetailLink() {
+		return totalBookingsFullDetailLink;
+	}
+
+	public WebElement getListedBrandsFullDetailLink() {
+		return listedBrandsFullDetailLink;
+	}
+
+	public WebElement getSubscribersFullDetailLink() {
+		return subscribersFullDetailLink;
+	}
+
+	public WebElement getQueriesFullDetailLink() {
+		return queriesFullDetailLink;
+	}
+
+	public WebElement getTestimonialsFullDetailLink() {
+		return testimonialsFullDetailLink;
+	}
+
+	public Dashboard(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 
     // Methods to interact with the page
+    
+    public void getDashboardLink() {
+    	dashboardLink.click();
+    }
     public String getRegUsersText() {
         return regUsersText.getText();
     }

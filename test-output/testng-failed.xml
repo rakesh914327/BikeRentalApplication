@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.BikeRentalManagement.AdminLogin.AdminLoginTest">
+      <class name="com.BikeRentalManagement.Dashboard.DashboardTest">
         <methods>
           <include name="browserConfigurations"/>
-          <include name="adminLoginTest"/>
+          <include name="verifyNavigationToDashboard"/>
           <include name="login"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- com.BikeRentalManagement.AdminLogin.AdminLoginTest -->
+      </class> <!-- com.BikeRentalManagement.Dashboard.DashboardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

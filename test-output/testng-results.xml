@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-23T16:47:42 IST" name="Suite" finished-at="2025-03-23T16:48:00 IST" duration-ms="18851">
+  <suite started-at="2025-03-23T20:07:24 IST" name="Default suite" finished-at="2025-03-23T20:07:36 IST" duration-ms="12355">
     <groups>
     </groups>
-    <test started-at="2025-03-23T16:47:42 IST" name="Test" finished-at="2025-03-23T16:48:00 IST" duration-ms="18851">
-      <class name="com.BikeRentalManagement.AdminLogin.AdminLoginTest">
-        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@a1153bc]" started-at="2025-03-23T16:47:42 IST" name="browserConfigurations" finished-at="2025-03-23T16:47:58 IST" duration-ms="16292" status="PASS">
+    <test started-at="2025-03-23T20:07:24 IST" name="Default test" finished-at="2025-03-23T20:07:36 IST" duration-ms="12355">
+      <class name="com.BikeRentalManagement.Dashboard.DashboardTest">
+        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:24 IST" name="browserConfigurations" finished-at="2025-03-23T20:07:34 IST" duration-ms="10401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserConfigurations -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@a1153bc]" started-at="2025-03-23T16:47:58 IST" name="login" finished-at="2025-03-23T16:47:59 IST" duration-ms="1256" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:34 IST" name="login" finished-at="2025-03-23T20:07:35 IST" duration-ms="855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="adminLoginTest()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@a1153bc]" started-at="2025-03-23T16:47:59 IST" name="adminLoginTest" finished-at="2025-03-23T16:47:59 IST" duration-ms="9" status="PASS">
+        <test-method signature="verifyNavigationToDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:35 IST" name="verifyNavigationToDashboard" finished-at="2025-03-23T20:07:36 IST" duration-ms="584" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- adminLoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@a1153bc]" started-at="2025-03-23T16:47:59 IST" name="closeBrowser" finished-at="2025-03-23T16:48:00 IST" duration-ms="1186" status="PASS">
+        </test-method> <!-- verifyNavigationToDashboard -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:36 IST" name="closeBrowser" finished-at="2025-03-23T20:07:36 IST" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.BikeRentalManagement.AdminLogin.AdminLoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.BikeRentalManagement.Dashboard.DashboardTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

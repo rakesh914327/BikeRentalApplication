@@ -11,6 +11,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
 
 import com.BikeRentalManagement.POMPages.AdminLogin;
+import com.bikerentalapp.genric.Webdriverutility.WebDriverUtility;
 
 public class BaseClass {
     
@@ -18,6 +19,7 @@ public class BaseClass {
     FileUtility flib = new FileUtility();
     AdminLogin login;
     SoftAssert soft = new SoftAssert();
+    WebDriverUtility wbu = new WebDriverUtility();
 
     @BeforeClass
     public void browserConfigurations() throws IOException {
@@ -33,7 +35,7 @@ public class BaseClass {
         } else {
             throw new IllegalArgumentException("Invalid browser specified: " + browser);
         }
-        
+        wbu.waitForPageToLoad(driver);
         driver.get(url);
         driver.manage().window().maximize();
     }
