@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-23T20:07:24 IST" name="Default suite" finished-at="2025-03-23T20:07:36 IST" duration-ms="12355">
+  <suite started-at="2025-04-02T11:03:06 IST" name="Suite" finished-at="2025-04-02T11:03:54 IST" duration-ms="48051">
     <groups>
     </groups>
-    <test started-at="2025-03-23T20:07:24 IST" name="Default test" finished-at="2025-03-23T20:07:36 IST" duration-ms="12355">
-      <class name="com.BikeRentalManagement.Dashboard.DashboardTest">
-        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:24 IST" name="browserConfigurations" finished-at="2025-03-23T20:07:34 IST" duration-ms="10401" status="PASS">
+    <test started-at="2025-04-02T11:03:06 IST" name="Test" finished-at="2025-04-02T11:03:54 IST" duration-ms="48051">
+      <class name="com.BikeRentalManagement.AdminLogin.AdminLoginTest">
+        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@55182842]" started-at="2025-04-02T11:03:06 IST" name="browserConfigurations" finished-at="2025-04-02T11:03:49 IST" duration-ms="42729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserConfigurations -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:34 IST" name="login" finished-at="2025-03-23T20:07:35 IST" duration-ms="855" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@55182842]" started-at="2025-04-02T11:03:49 IST" name="login" finished-at="2025-04-02T11:03:53 IST" duration-ms="4074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyNavigationToDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:35 IST" name="verifyNavigationToDashboard" finished-at="2025-03-23T20:07:36 IST" duration-ms="584" status="PASS">
+        <test-method signature="adminLoginTest()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@55182842]" started-at="2025-04-02T11:03:53 IST" name="adminLoginTest" finished-at="2025-04-02T11:03:53 IST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNavigationToDashboard -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@1aafa419]" started-at="2025-03-23T20:07:36 IST" name="closeBrowser" finished-at="2025-03-23T20:07:36 IST" duration-ms="450" status="PASS">
+        </test-method> <!-- adminLoginTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@55182842]" started-at="2025-04-02T11:03:54 IST" name="logout" finished-at="2025-04-02T11:03:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@55182842]" started-at="2025-04-02T11:03:54 IST" name="closeBrowser" finished-at="2025-04-02T11:03:54 IST" duration-ms="901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.BikeRentalManagement.Dashboard.DashboardTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.BikeRentalManagement.AdminLogin.AdminLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
