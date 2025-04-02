@@ -1,14 +1,20 @@
 package com.BikeRentalManagement.genric.fileutility;
 
 import java.io.IOException;
-import org.openqa.selenium.WebDriver;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+//import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import com.BikeRentalManagement.POMPages.AdminLogin;
@@ -16,7 +22,7 @@ import com.bikerentalapp.genric.Webdriverutility.WebDriverUtility;
 
 public class BaseClass {
     
-    protected WebDriver driver;
+    protected RemoteWebDriver driver;
     FileUtility flib = new FileUtility();
     AdminLogin login;
     SoftAssert soft = new SoftAssert();
@@ -26,6 +32,12 @@ public class BaseClass {
     public void browserConfigurations() throws IOException {
         String browser = flib.getDataFromPropertyFile("browser");
         String url = flib.getDataFromPropertyFile("url");
+        
+//        DesiredCapabilities option = new DesiredCapabilities();
+//        option.setBrowserName(browser);
+//        URL remoteurl = new URL("http://192.168.1.240:4444");
+//        
+//        driver = new RemoteWebDriver(remoteurl, option);
 
         if (browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();

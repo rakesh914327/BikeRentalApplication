@@ -5,6 +5,7 @@
     <classes>
       <class name="com.BikeRentalManagement.AdminLogin.AdminLoginTest">
         <methods>
+          <include name="logout"/>
           <include name="browserConfigurations"/>
           <include name="adminLoginTest"/>
           <include name="login"/>

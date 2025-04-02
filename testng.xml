@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.BikeRentalManagement.AdminLogin.AdminLoginTest"/>
+      <class name="com.BikeRentalManagement.Dashboard.DashboardTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
