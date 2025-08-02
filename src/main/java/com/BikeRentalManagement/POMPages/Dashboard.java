@@ -45,7 +45,7 @@ public class Dashboard {
     private WebElement totalBookingsCountText;
 
     @FindAll({
-        @FindBy(xpath = "//DIV[contains(.,'23')]/descendant::DIV[.='Total Bookings']")
+        @FindBy(xpath = "//div[text()='Bookings Info']")
     })
     private WebElement totalBookingsText;
 
@@ -61,7 +61,7 @@ public class Dashboard {
     private WebElement listedBrandsCountText;
 
     @FindAll({
-        @FindBy(xpath = "//DIV[contains(.,'9')]/descendant::DIV[.='Listed Brands']")
+        @FindBy(xpath = "//div[text()='Listed  Brands']")
     })
     private WebElement listedBrandsText;
 

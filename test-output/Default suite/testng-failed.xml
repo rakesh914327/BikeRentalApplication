@@ -5,10 +5,15 @@
     <classes>
       <class name="com.BikeRentalManagement.Dashboard.DashboardTest">
         <methods>
+          <include name="verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard"/>
+          <include name="logout"/>
+          <include name="verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard"/>
+          <include name="verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard"/>
           <include name="browserConfigurations"/>
-          <include name="verifyNavigationToDashboard"/>
-          <include name="login"/>
+          <include name="verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard"/>
           <include name="closeBrowser"/>
+          <include name="verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.BikeRentalManagement.Dashboard.DashboardTest -->
     </classes>
