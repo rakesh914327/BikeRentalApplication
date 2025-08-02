@@ -1,142 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="2" failed="0" skipped="5">
+<testng-results ignored="0" total="7" passed="2" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-02T06:29:30 IST" name="Suite" finished-at="2025-08-02T06:30:20 IST" duration-ms="49812">
+  <suite started-at="2025-08-02T06:43:19 IST" name="Suite" finished-at="2025-08-02T06:44:15 IST" duration-ms="55790">
     <groups>
     </groups>
-    <test started-at="2025-08-02T06:29:30 IST" name="Test" finished-at="2025-08-02T06:30:20 IST" duration-ms="49812">
+    <test started-at="2025-08-02T06:43:19 IST" name="Test" finished-at="2025-08-02T06:44:15 IST" duration-ms="55790">
       <class name="com.BikeRentalManagement.AdminLogin.AdminLoginTest">
-        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:29:31 IST" name="browserConfigurations" finished-at="2025-08-02T06:29:35 IST" duration-ms="4591" status="PASS">
+        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:43:19 IST" name="browserConfigurations" finished-at="2025-08-02T06:43:21 IST" duration-ms="2135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserConfigurations -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:29:35 IST" name="login" finished-at="2025-08-02T06:29:36 IST" duration-ms="857" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:43:21 IST" name="login" finished-at="2025-08-02T06:43:23 IST" duration-ms="1919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="adminLoginTest()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:29:36 IST" name="adminLoginTest" finished-at="2025-08-02T06:29:36 IST" duration-ms="63" status="PASS">
+        <test-method signature="adminLoginTest()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:43:23 IST" name="adminLoginTest" finished-at="2025-08-02T06:43:23 IST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLoginTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:29:36 IST" name="logout" finished-at="2025-08-02T06:29:36 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:43:23 IST" name="logout" finished-at="2025-08-02T06:43:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:29:36 IST" name="closeBrowser" finished-at="2025-08-02T06:29:37 IST" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.AdminLogin.AdminLoginTest@420a85c4]" started-at="2025-08-02T06:43:23 IST" name="closeBrowser" finished-at="2025-08-02T06:43:24 IST" duration-ms="446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.BikeRentalManagement.AdminLogin.AdminLoginTest -->
       <class name="com.BikeRentalManagement.Dashboard.DashboardTest">
-        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:29:37 IST" name="browserConfigurations" finished-at="2025-08-02T06:29:39 IST" duration-ms="2406" status="PASS">
+        <test-method is-config="true" signature="browserConfigurations()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:24 IST" name="browserConfigurations" finished-at="2025-08-02T06:43:25 IST" duration-ms="1106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserConfigurations -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:29:39 IST" name="login" finished-at="2025-08-02T06:29:40 IST" duration-ms="650" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:25 IST" name="login" finished-at="2025-08-02T06:43:27 IST" duration-ms="1860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyNavigationToDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:29:40 IST" name="verifyNavigationToDashboard" finished-at="2025-08-02T06:29:40 IST" duration-ms="369" status="PASS">
+        <test-method signature="verifyNavigationToDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:27 IST" name="verifyNavigationToDashboard" finished-at="2025-08-02T06:43:27 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationToDashboard -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:29:40 IST" name="logout" finished-at="2025-08-02T06:29:40 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:27 IST" name="logout" finished-at="2025-08-02T06:43:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:29:40 IST" name="login" finished-at="2025-08-02T06:30:20 IST" duration-ms="40067" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:57)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.BikeRentalManagement.genric.fileutility.BaseClass.login(BaseClass.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:27 IST" name="login" finished-at="2025-08-02T06:43:28 IST" duration-ms="590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:28 IST" name="verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard" finished-at="2025-08-02T06:43:28 IST" duration-ms="672" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[expected [Listed  Brands] but found [LISTED BRANDS]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:57)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.BikeRentalManagement.genric.fileutility.BaseClass.login(BaseClass.java:63)
+              <![CDATA[java.lang.AssertionError: expected [Listed  Brands] but found [LISTED BRANDS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.BikeRentalManagement.Dashboard.DashboardTest.verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard(DashboardTest.java:70)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -161,29 +91,29 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageRedirectsToBrandsClickingUponBrandsLinkinDashboard -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="logout" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:28 IST" name="logout" finished-at="2025-08-02T06:43:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="login" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:28 IST" name="login" finished-at="2025-08-02T06:43:29 IST" duration-ms="644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:29 IST" name="verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard" finished-at="2025-08-02T06:43:49 IST" duration-ms="20508" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
+              <![CDATA[Cannot locate an element using By.all({By.xpath: //DIV[contains(.,'9')]/descendant::DIV[.='Listed Vehicles']})
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //DIV[contains(.,'9')]/descendant::DIV[.='Listed Vehicles']})
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
@@ -195,16 +125,13 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.BikeRentalManagement.genric.fileutility.BaseClass.login(BaseClass.java:63)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at com.BikeRentalManagement.POMPages.Dashboard.getListedVehiclesText(Dashboard.java:177)
+at com.BikeRentalManagement.Dashboard.DashboardTest.verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard(DashboardTest.java:54)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -233,46 +160,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageRedirectsToListedVehiclesClickingUponListedVehiclesLinkinDashboard -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="logout" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:49 IST" name="logout" finished-at="2025-08-02T06:43:49 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="login" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:50 IST" name="login" finished-at="2025-08-02T06:43:50 IST" duration-ms="892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:50 IST" name="verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard" finished-at="2025-08-02T06:43:51 IST" duration-ms="760" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[expected [Reg Users] but found [REG USERS]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:57)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.BikeRentalManagement.genric.fileutility.BaseClass.login(BaseClass.java:63)
+              <![CDATA[java.lang.AssertionError: expected [Reg Users] but found [REG USERS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.BikeRentalManagement.Dashboard.DashboardTest.verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard(DashboardTest.java:41)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -297,29 +210,29 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageRedirectsToRegUserClickingUponRegUsersLinkinDashboard -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="logout" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:51 IST" name="logout" finished-at="2025-08-02T06:43:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="login" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:51 IST" name="login" finished-at="2025-08-02T06:43:52 IST" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:43:52 IST" name="verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard" finished-at="2025-08-02T06:44:13 IST" duration-ms="20618" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
+              <![CDATA[Cannot locate an element using By.all({By.xpath: //DIV[contains(.,'0')]/descendant::DIV[.='Subscibers']})
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: driver.version: RemoteWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //DIV[contains(.,'0')]/descendant::DIV[.='Subscibers']})
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.19.1', revision: 'abe0ee07dc'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
@@ -331,16 +244,13 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.BikeRentalManagement.genric.fileutility.BaseClass.login(BaseClass.java:63)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at com.BikeRentalManagement.POMPages.Dashboard.getSubscribersText(Dashboard.java:213)
+at com.BikeRentalManagement.Dashboard.DashboardTest.verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard(DashboardTest.java:100)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -369,46 +279,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageRedirectsToSubscribesrClickingUponSubscribesLinkinDashboard -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="logout" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:44:13 IST" name="logout" finished-at="2025-08-02T06:44:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="login" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:44:13 IST" name="login" finished-at="2025-08-02T06:44:13 IST" duration-ms="901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:44:13 IST" name="verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard" finished-at="2025-08-02T06:44:14 IST" duration-ms="729" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
+              <![CDATA[expected [Bookings Info] but found [BOOKINGS INFO]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.all({By.xpath: //input[contains(@name,'username')],By.xpath: //input[@placeholder='Username']})
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.19.1', revision: 'abe0ee07dc'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:57)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at com.BikeRentalManagement.genric.fileutility.BaseClass.login(BaseClass.java:63)
+              <![CDATA[java.lang.AssertionError: expected [Bookings Info] but found [BOOKINGS INFO]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.BikeRentalManagement.Dashboard.DashboardTest.verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard(DashboardTest.java:86)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -433,15 +329,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageRedirectsToTotalBookingsClickingUponTotalBookingsLinkinDashboard -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="logout" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:44:14 IST" name="logout" finished-at="2025-08-02T06:44:14 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:30:20 IST" name="closeBrowser" finished-at="2025-08-02T06:30:20 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.BikeRentalManagement.Dashboard.DashboardTest@266374ef]" started-at="2025-08-02T06:44:14 IST" name="closeBrowser" finished-at="2025-08-02T06:44:15 IST" duration-ms="604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

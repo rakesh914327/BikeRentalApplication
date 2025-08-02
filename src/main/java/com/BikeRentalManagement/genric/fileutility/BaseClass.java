@@ -26,7 +26,6 @@ public class BaseClass {
     @BeforeClass
     public void browserConfigurations() throws IOException {
         String browser = flib.getDataFromPropertyFile("browser");
-        String url = flib.getDataFromPropertyFile("url");
         
 //        DesiredCapabilities option = new DesiredCapabilities();
 //        option.setBrowserName(browser);
@@ -43,9 +42,6 @@ public class BaseClass {
         } else {
             throw new IllegalArgumentException("Invalid browser specified: " + browser);
         }
-        wbu.waitForPageToLoad(driver);
-        driver.get(url);
-        driver.manage().window().maximize();
     }
 
     @AfterClass
@@ -55,6 +51,10 @@ public class BaseClass {
 
     @BeforeMethod
     public void login() throws IOException {
+        String url = flib.getDataFromPropertyFile("url");
+    	wbu.waitForPageToLoad(driver);
+        driver.get(url);
+        driver.manage().window().maximize();
         login = new AdminLogin(driver); // Initialize after driver creation
         String username = flib.getDataFromPropertyFile("username");
         String password = flib.getDataFromPropertyFile("password");

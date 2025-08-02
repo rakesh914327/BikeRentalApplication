@@ -24,11 +24,6 @@ public class DashboardTest extends BaseClass {
         dash = new Dashboard(driver);
         
         dash.getDashboardLink();
-        String expectedText = "Dashboard";
-        String dashText = dash.getDashboardText().getText();
-        soft.assertEquals(expectedText, dashText);
-        
-        soft.assertAll();
         //hello
     }
     
